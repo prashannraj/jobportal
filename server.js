@@ -8,6 +8,7 @@ import connectDB from "./config/db.js";
 import testRoutes from "./routes/testRoute.js";
 import authRoutes from "./routes/authRoute.js";
 import morgan from "morgan";
+import 'express-async-errors';
 import cors from "cors";
 import errorMiddleware from "./middelwares/errorMiddleware.js";
 
